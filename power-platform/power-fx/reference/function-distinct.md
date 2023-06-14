@@ -80,7 +80,7 @@ The **Distinct** function evaluates a formula across each record of a table and 
    First( Sort( Distinct( CityPopulations, Country ), Value ) ).Value
    ```
 
-   This formula sorts the results from **Distinct** with the [**Sort**](function-sort.md) function, takes the first record from the resulting table with the [**First**](function-first-last.md) function, and extracts the **Result** field to obtain just the country name.
+   This formula sorts the results from **Distinct** with the [**Sort**](function-sort.md) function, takes the first record from the resulting table with the [**First**](function-first-last.md) function, and extracts the **Value** field to obtain just the country name.
 
     > [!div class="mx-imgBorder"] 
     > ![Output from Distinct function showing the first country by name.](media/function-distinct/citypopulations-first.png)
